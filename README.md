@@ -1,4 +1,4 @@
-# dormitories_system v1.0.0
+# dormitories_system v1.0.0 学生宿舍管理系统
 1. 创建一个dormitories数据库，把sql目录里的dormitories.sql文件数据导入进去
 2. 启动后端应用程序
 3. 在DS-vue根目录终端运行npm install下载依赖，下载完运行npm run serve 启动vue客户端
