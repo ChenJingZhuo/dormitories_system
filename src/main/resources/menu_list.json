@@ -1,0 +1,259 @@
+[
+  {
+    "children": [
+      {
+        "children": [],
+        "code": "sys:checkin",
+        "icon": "el-icon-s-custom",
+        "id": 11,
+        "label": "入住人员管理",
+        "name": "checkin",
+        "orderNum": 0,
+        "parentId": 1,
+        "path": "/checkin",
+        "remark": "机构管理",
+        "type": "1",
+        "url": "/manage/Checkin/Checkin"
+      },
+      {
+        "children": [],
+        "code": "sys:room",
+        "icon": "el-icon-s-home",
+        "id": 12,
+        "label": "宿舍房间管理",
+        "name": "room",
+        "orderNum": 1,
+        "parentId": 1,
+        "path": "/room",
+        "type": "1",
+        "url": "/manage/Room/Room"
+      },
+      {
+        "children": [],
+        "code": "sys:enter",
+        "icon": "el-icon-right",
+        "id": 13,
+        "label": "学生入宿管理",
+        "name": "enter",
+        "orderNum": 2,
+        "parentId": 1,
+        "path": "/enter",
+        "type": "1",
+        "url": "/manage/Enter/Enter"
+      },
+      {
+        "children": [],
+        "code": "sys:move",
+        "icon": "el-icon-top-right",
+        "id": 14,
+        "label": "学生调宿管理",
+        "name": "move",
+        "orderNum": 3,
+        "parentId": 1,
+        "path": "/move",
+        "type": "1",
+        "url": "/manage/Move/Move"
+      },
+      {
+        "children": [],
+        "code": "sys:exit",
+        "icon": "el-icon-back",
+        "id": 15,
+        "label": "学生退宿管理",
+        "name": "exit",
+        "orderNum": 4,
+        "parentId": 1,
+        "path": "",
+        "type": "1",
+        "url": "/manage/Exit/Exit"
+      }
+    ],
+    "code": "sys:manage",
+    "icon": "el-icon-s-order",
+    "id": 1,
+    "label": "入宿相关管理",
+    "orderNum": 0,
+    "parentId": 0,
+    "path": "/manage",
+    "type": "0"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "code": "sys:history",
+        "icon": "el-icon-date",
+        "id": 21,
+        "label": "历史住宿记录管理",
+        "name": "history",
+        "orderNum": 0,
+        "parentId": 2,
+        "path": "/history",
+        "type": "1",
+        "url": "/register/History/History"
+      },
+      {
+        "children": [],
+        "code": "sys:visit",
+        "icon": "el-icon-document-copy",
+        "id": 22,
+        "label": "访客管理",
+        "name": "visit",
+        "orderNum": 1,
+        "parentId": 2,
+        "path": "/visit",
+        "type": "1",
+        "url": "/register/Visit/Visit"
+      },
+      {
+        "children": [],
+        "code": "sys:valuables",
+        "icon": "el-icon-s-goods",
+        "id": 23,
+        "label": "贵重物品放行管理",
+        "name": "valuables",
+        "orderNum": 2,
+        "parentId": 2,
+        "path": "/valuables",
+        "type": "1",
+        "url": "/register/Valuables/Valuables"
+      },
+      {
+        "children": [],
+        "code": "sys:stay",
+        "icon": "el-icon-bottom",
+        "id": 24,
+        "label": "留宿管理",
+        "name": "stay",
+        "orderNum": 3,
+        "parentId": 2,
+        "path": "/stay",
+        "type": "1",
+        "url": "/register/Stay/Stay"
+      },
+      {
+        "children": [],
+        "code": "sys:action",
+        "icon": "el-icon-notebook-1",
+        "id": 25,
+        "label": "操行记录管理",
+        "name": "action",
+        "orderNum": 4,
+        "parentId": 2,
+        "path": "/action",
+        "type": "1",
+        "url": "/register/Action/Action"
+      },
+      {
+        "children": [],
+        "code": "sys:repair",
+        "icon": "el-icon-suitcase-1",
+        "id": 26,
+        "label": "设施维护管理",
+        "name": "repair",
+        "orderNum": 5,
+        "parentId": 2,
+        "path": "/repair",
+        "type": "1",
+        "url": "/register/Repair/Repairs"
+      }
+    ],
+    "code": "sys:register",
+    "icon": "el-icon-edit-outline",
+    "id": 2,
+    "label": "登记管理",
+    "orderNum": 1,
+    "parentId": 0,
+    "path": "/register",
+    "type": "0"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "code": "sys:college",
+        "icon": "el-icon-school",
+        "id": 31,
+        "label": "学院相关设置",
+        "name": "college",
+        "orderNum": 0,
+        "parentId": 3,
+        "path": "/college",
+        "type": "1",
+        "url": "/other/College/College"
+      },
+      {
+        "children": [],
+        "code": "sys:query",
+        "icon": "el-icon-pie-chart",
+        "id": 32,
+        "label": "查询统计",
+        "name": "query",
+        "orderNum": 1,
+        "parentId": 3,
+        "path": "/query",
+        "type": "1",
+        "url": "/other/Query/Query"
+      },
+      {
+        "children": [],
+        "code": "sys:demo",
+        "icon": "el-icon-folder",
+        "id": 33,
+        "label": "代码管理",
+        "name": "demo",
+        "orderNum": 2,
+        "parentId": 3,
+        "path": "/demo",
+        "type": "1",
+        "url": "/other/Demo/Demo"
+      }
+    ],
+    "code": "sys:other",
+    "icon": "el-icon-menu",
+    "id": 3,
+    "label": "其他操作",
+    "orderNum": 2,
+    "parentId": 0,
+    "path": "/other",
+    "type": "0"
+  },
+  {
+    "children": [
+      {
+        "children": [],
+        "code": "sys:create",
+        "icon": "el-icon-files",
+        "id": 41,
+        "label": "代码生成",
+        "name": "systemCode",
+        "orderNum": 0,
+        "parentId": 4,
+        "path": "/systemCode",
+        "type": "1",
+        "url": "/system/config/systemCode"
+      },
+      {
+        "children": [],
+        "code": "sys:document",
+        "icon": "el-icon-s-operation",
+        "id": 42,
+        "label": "接口文档",
+        "name": "document",
+        "orderNum": 1,
+        "parentId": 4,
+        "path": "/document",
+        "type": "1",
+        "url": "/system/config/systemDocument"
+      }
+    ],
+    "code": "sys:systemConfig",
+    "icon": "el-icon-receiving",
+    "id": 4,
+    "label": "系统工具",
+    "orderNum": 3,
+    "parentId": 0,
+    "path": "/system",
+    "type": "0"
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gdpi.mapper.StudentsMapper">
+    
+    <insert id="byExcelSave">
+        insert into students () values
+        (
+        stu_no=#{stu_no},
+        stu_name=#{stu_name},
+        stu_sex=#{stu_sex},
+        stu_papers_type=#{stu_papers_type},
+        stu_papers_no=#{stu_papers_no},
+        stu_grade=#{stu_grade},
+        stu_education=#{stu_education},
+        stu_graduation=#{stu_graduation},
+        stu_college=#{stu_college},
+        stu_major=#{students},
+        stu_class=#{stu_class}
+        );
+    </insert>
+
+</mapper>
